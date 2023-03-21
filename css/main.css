@@ -82,28 +82,27 @@ article:first-of-type h2 {
     color:  black;
 }
 
-#inprogress { border-color: brown}
-#inprogress  h2 { color: black}
+#SetUp { border-color: brown}
+#SetUp  h2 { color: black}
 
-#done { border-color: brown}
-#done  h2 { color: black}
+#During { border-color: brown}
+#During  h2 { color: black}
 
 ul li{
     padding: 6px 8px;
-    text-transform: uppercase;
 
 
 }
 
-#todo li:nth-child(odd) {
+#Before li:nth-child(odd) {
     background-color: rgba(255, 255, 0, 0.5);
 }
 
-#inprogress li:nth-child(odd) {
+#SetUp li:nth-child(odd) {
     background-color: rgba(255, 0, 0, 0.5);
 }
 
-#done li:nth-child(odd){
+#During li:nth-child(odd){
     background-color: rgba(0, 255, 0, 0.5);
 }
 
