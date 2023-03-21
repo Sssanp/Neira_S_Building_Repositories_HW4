@@ -124,4 +124,13 @@ main {
 
     main {margin: 0;}
 }
+
+img{
+    width: 360px;
+    height: 360px;
+    margin: 0px 10px 10px 15px;
+    }
+
+ 
+
 /* css is valid*/
