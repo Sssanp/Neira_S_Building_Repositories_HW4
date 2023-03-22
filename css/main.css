@@ -148,3 +148,20 @@ input:checked + label{
 h2::after{
     content: "🐰" ;
 }
+
+
+li input:checked ~ label::after {
+    content: "🐰";
+}
+
+input:checked + label {
+    text-decoration: line-through;
+}
+
+
+footer { 
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    background-color: #0492c2;
+}
